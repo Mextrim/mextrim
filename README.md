@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Mextrim&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="header"/>
+<h1 align="center">Mextrim</h1>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=C%23+%2F+.NET+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Rust+%2F+Audio+DSP;GTA+V+Modding+Tools;FiveM+%E2%80%A2+Alt%3AV+%E2%80%A2+Singleplayer)](https://git.io/typing-svg)
 
@@ -120,28 +120,36 @@ var me = new Developer("Mextrim aka MeX")
 ### Статистика
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Mextrim&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&count_private=true" alt="stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=Mextrim&theme=tokyonight&hide_border=true&background=0d1117" alt="streak"/>
+  <img src="https://img.shields.io/github/followers/Mextrim?style=for-the-badge&logo=github&label=Followers" alt="followers"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FMextrim" alt="repos"/>
+  <img src="https://img.shields.io/badge/Stars-2-181717?style=for-the-badge&logo=github&logoColor=white" alt="stars"/>
+  <img src="https://komarev.com/ghpvc/?username=Mextrim&style=for-the-badge&color=0e75b6" alt="views"/>
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mextrim&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=8" alt="langs"/>
-  <img height="165" src="https://github-readme-activity-graph.vercel.app/graph?username=Mextrim&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="activity" width="415"/>
+  <img src="https://streak-stats.demolab.com?user=Mextrim&theme=tokyonight&hide_border=true&background=0d1117" alt="streak"/>
 </p>
+
+**Языки по репозиториям** (KazanClothTool — C#, MexPlug — Rust):
+
+```
+C#    ████████████████████  ~90%  (KazanClothTool, .NET 10 / WPF)
+Rust  ████                  ~8%   (MexPlug, VST3/CLAP DSP)
+CSS   █                     ~1%   (Discord-light-theme, форк)
+C++   █                     ~1%   (нативный код в KazanClothTool)
+```
 
 ---
 
 ### Направления
 
 ```mermaid
-graph LR
+graph TD
   A[KazanClothTool<br/>C# / WPF] --> B[FiveM]
   A --> C[Alt:V]
   A --> D[Singleplayer]
   E[MexPlug<br/>Rust / DSP] --> F[VST3]
   E --> G[CLAP]
-  A -.-> H[CodeWalker]
-  E -.-> I[nice-plug]
 ```
 
 ---
@@ -156,7 +164,5 @@ graph LR
 </p>
 
 ---
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="footer"/>
 
 <p align="center">© 2026 MeX · Icons: Font Awesome / Material</p>
