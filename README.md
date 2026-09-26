@@ -154,16 +154,12 @@ graph TD
 
 ---
 
-### Связь
+### Связаться со мной:
 
 <p align="center">
   <a href="https://t.me/mextrim"><img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram"/></a>
   <a href="https://vk.com/mextrim"><img src="https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white" alt="vk"/></a>
   <a href="https://discord.com/users/1393850947544944650"><img src="https://img.shields.io/badge/mexttv-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord"/></a>
-  <a href="https://github.com/Mextrim/KazanClothTool/issues"><img src="https://img.shields.io/badge/Issues-181717?style=for-the-badge&logo=github&logoColor=white" alt="issues"/></a>
-  <a href="https://github.com/Mextrim/KazanClothTool/wiki"><img src="https://img.shields.io/badge/Wiki-58A6FF?style=for-the-badge&logo=gitbook&logoColor=white" alt="wiki"/></a>
-  <a href="https://mextrim.github.io/KazanClothTool/"><img src="https://img.shields.io/badge/Site-4F46E5?style=for-the-badge&logo=githubpages&logoColor=white" alt="site"/></a>
-  <a href="https://github.com/Mextrim/MexPlug/releases"><img src="https://img.shields.io/badge/MexPlug-059669?style=for-the-badge&logo=audiomack&logoColor=white" alt="mexplug"/></a>
 </p>
 
 ---
