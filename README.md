@@ -1,23 +1,41 @@
-<h1 align="center">Mextrim</h1>
+![MeX Dev Dashboard](dash-assets/hero.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=C%23+%2F+.NET+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Rust+%2F+Audio+DSP;GTA+V+Modding+Tools;FiveM+%E2%80%A2+Alt%3AV+%E2%80%A2+Singleplayer)](https://git.io/typing-svg)
-
-<h3 align="center">MeX — делаю инструменты, которыми удобно пользоваться</h3>
+![Topbar](dash-assets/topbar.svg)
 
 <p align="center">
-  <a href="https://github.com/Mextrim/KazanClothTool"><img src="https://img.shields.io/github/v/release/Mextrim/KazanClothTool?label=KazanClothTool&style=for-the-badge&color=4F46E5" alt="KazanClothTool"/></a>
-  <a href="https://github.com/Mextrim/MexPlug"><img src="https://img.shields.io/github/v/release/Mextrim/MexPlug?label=MexPlug&style=for-the-badge&color=059669" alt="MexPlug"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Mextrim&style=for-the-badge&color=0e75b6" alt="views"/>
+  <a href="#dashboard"><img src="https://img.shields.io/badge/◉_Dashboard-2E4BFF?style=for-the-badge" alt="Dashboard"/></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/Projects-F0F2F7?style=for-the-badge" alt="Projects"/></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Stack-F0F2F7?style=for-the-badge" alt="Stack"/></a>
+  <a href="#statistics"><img src="https://img.shields.io/badge/Statistics-F0F2F7?style=for-the-badge" alt="Statistics"/></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/Inbox-F0F2F7?style=for-the-badge" alt="Inbox"/></a>
 </p>
 
-<p align="center">
-  🏠 Working from home · 📍 Parabel<br/>
-  C# / Rust · GTA V modding · Audio DSP
-</p>
+## Dashboard
 
----
+<table>
+<tr>
+<td width="120" align="center" valign="middle">
+<img src="https://avatars.githubusercontent.com/u/25911491?s=160&v=4" width="100" alt="avatar"/>
+</td>
+<td valign="middle">
 
-### Обо мне
+### MeX · Mextrim
+🏠 Working from home · 📍 Parabel
+<br/>
+C# / Rust · GTA V modding · Audio DSP
+
+</td>
+<td width="220" align="center" valign="middle">
+<img src="https://komarev.com/ghpvc/?username=Mextrim&style=for-the-badge&color=2E4BFF" alt="views"/>
+<br/>
+<img src="https://img.shields.io/github/followers/Mextrim?style=for-the-badge&label=Followers" alt="followers"/>
+</td>
+</tr>
+</table>
+
+![KPI](dash-assets/kpi.svg)
+
+### 👤 User Profile
 
 ```csharp
 var me = new Developer("Mextrim aka MeX")
@@ -35,9 +53,28 @@ var me = new Developer("Mextrim aka MeX")
 - Люблю WPF, кастомные темы, Material Design Icons, CodeWalker, DSP
 - Вся подробная дока — в Wiki проектов
 
----
+## Projects
 
-### Стек
+| Project | Stack | Ships for | Status | Link |
+|---|---|---|---|---|
+| **✂️ KazanClothTool** — редактор одежды и текстур для GTA V | C# · .NET 10 · WPF | FiveM · Alt:V · Singleplayer | ![ACTIVE](https://img.shields.io/badge/ACTIVE-2E4BFF?style=flat-square) | [Repo](https://github.com/Mextrim/KazanClothTool) · [Wiki](https://github.com/Mextrim/KazanClothTool/wiki) |
+| **🎛️ MexPlug** — punchy auto-mix + analog liveliness | Rust · nice-plug · DSP | VST3 · CLAP | ![ACTIVE](https://img.shields.io/badge/ACTIVE-2E4BFF?style=flat-square) | [Repo](https://github.com/Mextrim/MexPlug) · [Releases](https://github.com/Mextrim/MexPlug/releases) |
+
+> 🔔 **Notification · Latest Release:** [KazanClothTool **v1.14.0**](https://github.com/Mextrim/KazanClothTool/releases/download/v1.14.0/KazanClothTool-v1.14.0-win-x64.zip) — portable ZIP, установка не нужна. Интерактивная страница: [mextrim.github.io/KazanClothTool](https://mextrim.github.io/KazanClothTool/)
+
+### KazanClothTool — детали
+
+- 🖥️ Windows x64 · 🎨 35 тем · 🌍 RU / UA / EN без перезапуска
+- 📦 Сборка: FiveM + `fxmanifest` · Alt:V + `resource.toml` · Singleplayer `dlc.rpf`
+- 🧊 3D-просмотр через GTA V · 📦 `.kctproject`, автосейв каждые 60 сек
+
+### MexPlug — детали
+
+- 🦀 ~0.33 мкс/фрейм · 0 аллокаций на аудио-потоке · pluginval strict 5 — SUCCESS
+- 🎚️ 19 ручек · 8 пресетов · DICE · A/B · 5 тем оформления
+- 🖥️ FL / Ableton / Cubase / Reaper / Bitwig / Studio One
+
+## Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
@@ -53,7 +90,7 @@ var me = new Developer("Mextrim aka MeX")
 </p>
 
 <details>
-<summary><b>Детальнее по инструментам</b></summary>
+<summary><b>🧰 Детальнее по инструментам</b></summary>
 <br/>
 
 - **Desktop:** C#, .NET 10, WPF, MVVM, XAML, Win32 API
@@ -64,73 +101,13 @@ var me = new Developer("Mextrim aka MeX")
 
 </details>
 
----
-
-### Главные проекты
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### KazanClothTool
-
-**Редактор одежды и текстур для GTA V**
-
-Модели, свойства, контроль качества и сборка ресурсов — в одном окне.
-
-- Windows x64 · .NET 10 · WPF
-- 35 тем · RU / UA / EN
-- Сборка: FiveM + fxmanifest · Alt:V + resource.toml · Singleplayer dlc.rpf
-- 3D-просмотр через GTA V · .kctproject, автосейв 60 сек
-
-<br/>
-
-<a href="https://github.com/Mextrim/KazanClothTool/releases/download/v1.14.0/KazanClothTool-v1.14.0-win-x64.zip"><img src="https://img.shields.io/badge/Скачать_v1.14.0-4F46E5?style=for-the-badge&logo=windows&logoColor=white" alt="download"/></a>
-<a href="https://github.com/Mextrim/KazanClothTool/wiki"><img src="https://img.shields.io/badge/Wiki-24292f?style=for-the-badge&logo=github&logoColor=white" alt="wiki"/></a>
-<a href="https://github.com/Mextrim/KazanClothTool"><img src="https://img.shields.io/badge/Repo-000?style=for-the-badge&logo=github&logoColor=white" alt="repo"/></a>
-
-</td>
-<td width="50%" valign="top">
-
-#### MexPlug
-
-**Punchy auto-mix + analog liveliness**
-
-Убирает стерильность трека: авто-сведение, лампа, tape, мастеринг — в одном окне.
-
-- Rust · nice-plug · VST3 + CLAP
-- ~0.33 мкс/фрейм · 0 аллокаций · pluginval strict 5
-- 19 ручек · 8 пресетов · DICE · A/B · 5 тем
-- FL / Ableton / Cubase / Reaper / Bitwig / Studio One
-
-<br/>
-
-<a href="https://github.com/Mextrim/MexPlug/releases"><img src="https://img.shields.io/badge/Setup.exe-059669?style=for-the-badge&logo=windows&logoColor=white" alt="setup"/></a>
-<a href="https://github.com/Mextrim/MexPlug"><img src="https://img.shields.io/badge/Repo-000?style=for-the-badge&logo=github&logoColor=white" alt="repo"/></a>
-<a href="https://github.com/Mextrim/MexPlug/issues"><img src="https://img.shields.io/badge/Issues-24292f?style=for-the-badge&logo=github&logoColor=white" alt="issues"/></a>
-
-</td>
-</tr>
-</table>
-
-> Интерактивная страница: [mextrim.github.io/KazanClothTool](https://mextrim.github.io/KazanClothTool/)
-
----
-
-### Статистика
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/Mextrim?style=for-the-badge&logo=github&label=Followers" alt="followers"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FMextrim" alt="repos"/>
-  <img src="https://img.shields.io/badge/Stars-2-181717?style=for-the-badge&logo=github&logoColor=white" alt="stars"/>
-  <img src="https://komarev.com/ghpvc/?username=Mextrim&style=for-the-badge&color=0e75b6" alt="views"/>
-</p>
+## Statistics
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Mextrim&theme=tokyonight&hide_border=true&background=0d1117" alt="streak"/>
 </p>
 
-**Языки по репозиториям** (KazanClothTool — C#, MexPlug — Rust):
+**Languages — deals by repo** (KazanClothTool — C#, MexPlug — Rust):
 
 ```
 C#    ████████████████████  ~90%  (KazanClothTool, .NET 10 / WPF)
@@ -139,20 +116,7 @@ CSS   █                     ~1%   (Discord-light-theme, форк)
 C++   █                     ~1%   (нативный код в KazanClothTool)
 ```
 
----
-
-### Направления
-
-```mermaid
-graph TD
-  A[KazanClothTool<br/>C# / WPF] --> B[FiveM]
-  A --> C[Alt:V]
-  A --> D[Singleplayer]
-  E[MexPlug<br/>Rust / DSP] --> F[VST3]
-  E --> G[CLAP]
-```
-
----
+## Contact
 
 ### Связаться со мной:
 
@@ -164,4 +128,4 @@ graph TD
 
 ---
 
-<p align="center">© 2026 MeX · Icons: Font Awesome / Material</p>
+<p align="center">© 2026 MeX · Profile UI inspired by DashStack · Icons: Font Awesome / Material</p>
