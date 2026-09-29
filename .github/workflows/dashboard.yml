@@ -1,0 +1,50 @@
+name: Dashboard
+
+# Виджеты профиля (hero / KPI / языки) собираются из живых данных GitHub API.
+# Без этого счётчики в README разъезжаются с реальностью.
+
+on:
+  schedule:
+    - cron: '23 6 * * 1'   # по понедельникам
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/dashboard.mjs'
+      - '.github/workflows/dashboard.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    name: Обновить виджеты профиля
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Пересобрать виджеты
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DASHBOARD_USER: Mextrim
+        run: node tools/dashboard.mjs
+
+      - name: Закоммитить, если что-то изменилось
+        run: |
+          if git diff --quiet -- dash-assets; then
+            echo "Виджеты не изменились — коммит не нужен"
+          else
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add dash-assets
+            git commit -m "chore: обновить виджеты профиля из GitHub API"
+            git push
+          fi

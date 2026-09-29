@@ -1,36 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
   <defs>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="5" cy="5" r="3.4" fill="#ffffff" opacity="0.22"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F1F"/>
+      <stop offset="0.55" stop-color="#101A38"/>
+      <stop offset="1" stop-color="#0A1226"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2E4BFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2E4BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00B69B" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#00B69B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E4BFF"/>
+      <stop offset="1" stop-color="#00B69B"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0 L0 0 0 34" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
     </pattern>
   </defs>
-  <rect x="0" y="0" width="1200" height="360" rx="28" fill="#2E4BFF"/>
-  <rect x="0" y="0" width="1200" height="360" rx="28" fill="url(#dots)"/>
-  <circle cx="90" cy="380" r="150" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="44"/>
-  <circle cx="90" cy="380" r="80" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="30"/>
-  <circle cx="1130" cy="40" r="120" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="36"/>
 
-  <text x="64" y="148" font-size="78" font-weight="900" fill="#ffffff">MeX Dev Dashboard</text>
-  <text x="66" y="198" font-size="27" font-weight="400" fill="#D7DEFF">C# · Rust · GTA V modding · Audio DSP</text>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <ellipse cx="120" cy="40" rx="420" ry="280" fill="url(#glowA)"/>
+  <ellipse cx="1140" cy="330" rx="380" ry="220" fill="url(#glowB)"/>
 
-  <g font-size="23" font-weight="800" fill="#111111" text-anchor="middle">
-    <rect x="64" y="238" width="174" height="52" rx="26" fill="#ffffff"/>
-    <text x="151" y="272">C# / .NET</text>
-    <rect x="250" y="238" width="188" height="52" rx="26" fill="#ffffff"/>
-    <text x="344" y="272">Rust / DSP</text>
-    <rect x="450" y="238" width="230" height="52" rx="26" fill="#ffffff"/>
-    <text x="565" y="272">GTA V Modding</text>
-    <rect x="692" y="238" width="174" height="52" rx="26" fill="#ffffff"/>
-    <text x="779" y="272">35 Themes</text>
-  </g>
+  <text x="64" y="86" font-size="14" font-weight="700" fill="#00D3B8" letter-spacing="3.2">DEVELOPER DASHBOARD</text>
+  <text x="64" y="164" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="-2">MeX</text>
+  <text x="212" y="164" font-size="34" font-weight="500" fill="#8FA4FF">· Mextrim</text>
+  <text x="66" y="212" font-size="21" fill="#A8B2CC">C# · .NET 10 · WPF · Rust · Audio DSP · Browser Extensions</text>
+
+    <rect x="64" y="256" width="168" height="46" rx="23" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="148" y="285" font-size="18" font-weight="600" fill="#DCE3F7" text-anchor="middle">Desktop Tools</text>
+    <rect x="244" y="256" width="190" height="46" rx="23" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="339" y="285" font-size="18" font-weight="600" fill="#DCE3F7" text-anchor="middle">GTA V Modding</text>
+    <rect x="446" y="256" width="150" height="46" rx="23" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="521" y="285" font-size="18" font-weight="600" fill="#DCE3F7" text-anchor="middle">Audio DSP</text>
+    <rect x="608" y="256" width="210" height="46" rx="23" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="713" y="285" font-size="18" font-weight="600" fill="#DCE3F7" text-anchor="middle">Browser Extensions</text>
 
   <g>
-    <rect x="908" y="70" width="228" height="220" rx="20" fill="#ffffff"/>
-    <text x="932" y="112" font-size="20" font-weight="700" fill="#8A8FA3">Latest Release</text>
-    <text x="932" y="146" font-size="24" font-weight="800" fill="#1A1D26">KazanClothTool</text>
-    <text x="932" y="196" font-size="42" font-weight="900" fill="#2E4BFF">v1.14.0</text>
-    <rect x="932" y="216" width="130" height="40" rx="20" fill="#E6FAF3"/>
-    <circle cx="950" cy="236" r="7" fill="#00B69B"/>
-    <text x="964" y="243" font-size="19" font-weight="800" fill="#00B69B">Stable</text>
+    <rect x="880" y="62" width="256" height="216" rx="18" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="906" y="104" font-size="14" font-weight="700" fill="#7E8AB0" letter-spacing="1.8">LATEST RELEASE</text>
+    <text x="906" y="146" font-size="19" font-weight="700" fill="#FFFFFF">twitch-drops-farmer</text>
+    <text x="906" y="196" font-size="44" font-weight="800" fill="#6E86FF" letter-spacing="-1">v1.0.0</text>
+    <rect x="906" y="216" width="128" height="36" rx="18" fill="#00B69B" fill-opacity="0.16" stroke="#00B69B" stroke-opacity="0.45"/>
+    <circle cx="928" cy="234" r="6" fill="#00B69B"/>
+    <text x="944" y="241" font-size="16" font-weight="700" fill="#4FE3CE">Releases</text>
   </g>
+
+  <rect x="0" y="337" width="1200" height="3" rx="1.5" fill="url(#accent)"/>
 </svg>
