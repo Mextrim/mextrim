@@ -4,14 +4,14 @@
   <g>
     <text x="0" y="68" font-size="19" font-weight="600" fill="#141824">C#</text>
     <rect x="180" y="52" width="760" height="20" rx="10" fill="#EDF0F6"/>
-    <rect x="180" y="52" width="739" height="20" rx="10" fill="#2E4BFF"/>
-    <text x="960" y="68" font-size="19" font-weight="700" fill="#141824">97.2%</text>
+    <rect x="180" y="52" width="738" height="20" rx="10" fill="#2E4BFF"/>
+    <text x="960" y="68" font-size="19" font-weight="700" fill="#141824">97.1%</text>
   </g>
   <g>
     <text x="0" y="114" font-size="19" font-weight="600" fill="#141824">JavaScript</text>
     <rect x="180" y="98" width="760" height="20" rx="10" fill="#EDF0F6"/>
-    <rect x="180" y="98" width="7" height="20" rx="10" fill="#00B69B"/>
-    <text x="960" y="114" font-size="19" font-weight="700" fill="#141824">1.0%</text>
+    <rect x="180" y="98" width="8" height="20" rx="10" fill="#00B69B"/>
+    <text x="960" y="114" font-size="19" font-weight="700" fill="#141824">1.1%</text>
   </g>
   <g>
     <text x="0" y="160" font-size="19" font-weight="600" fill="#141824">Python</text>
